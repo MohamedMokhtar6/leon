@@ -4,6 +4,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -319,10 +322,12 @@ display: block;
     text-align: center;
     
 }
-.contact .container .contact-cont h2+p{
+.contact .container .contact-cont h2+a{
     color: var(--mainColor);
     font-weight: 700;
-    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 .contact .container .contact-cont p:last-of-type{
     font-size: 10px;
